@@ -1,0 +1,22 @@
+/* App.module.css */
+.container {
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Allows vertical scrolling */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+/* Optional: For any other elements within the container, set them to fill the screen */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensures the body and html fill the screen */
+    overflow: hidden; /* Prevents unnecessary horizontal scrolling */
+}

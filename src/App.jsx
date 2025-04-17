@@ -1,15 +1,15 @@
+// App.jsx
+import styles from './App.module.css';
+import Hero from './components/Hero/Hero';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
 
-import './App.css'
-
-function App() {
-
-
-  return (
-    <>
-      <h1>Working</h1>
-        <p>Portfolio</p>
-    </>
-  )
+export default function App() {
+    return (
+        <div className={styles.container}>
+            <Hero />
+            <Skills />
+            <Projects />
+        </div>
+    );
 }
-
-export default App
