@@ -2,11 +2,11 @@ import { motion } from 'framer-motion';
 import styles from './Skills.module.css';
 
 const skills = [
-    { name: 'React', level: 90 },
-    { name: 'Node.js', level: 75},
-    { name: 'CSS/Sass', level: 85},
+    { name: 'React', level: 80 },
+    { name: 'Node.js', level: 65},
+    { name: 'CSS/Sass', level: 75},
     { name: 'Java', level: 80 },
-    { name: 'MongoDB', level: 75},
+    { name: 'MongoDB', level: 65},
     { name: 'Sql', level: 70}
 ];
 

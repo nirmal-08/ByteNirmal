@@ -10,23 +10,23 @@ const projects = [
         github: '#'
     },
     {
-        title: 'AI Dashboard',
-        description: 'Machine learning visualization dashboard with real-time analytics',
-        tags: ['Python', 'TensorFlow', 'D3.js'],
+        title: 'AI TIME TABLE GENERATOR',
+        description: 'Automatic generate Time Table',
+        tags: ['Python', 'Django'],
         link: '#',
         github: '#'
     },
     {
-        title: 'Mobile Fitness App',
-        description: 'Cross-platform fitness tracking application with social features',
-        tags: ['React Native', 'Firebase', 'Redux'],
+        title: 'Ecommerce Website',
+        description: 'Cross-platform E-commerce website',
+        tags: ['React', 'Bootstrap', 'Redux'],
         link: '#',
         github: '#'
     },
     {
-        title: 'Blockchain Explorer',
-        description: 'Cryptocurrency transaction explorer with custom APIs',
-        tags: ['Solidity', 'Web3.js', 'Ethereum'],
+        title: 'To Do List',
+        description: 'Save To Do Locally',
+        tags: ['React', 'js', 'Tailwind'],
         link: '#',
         github: '#'
     }
